@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iChat - Realtime Node Socket.io Chat App</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container"></div> 
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="messageInp" id="messageInp" placeholder="Enter your message...">
+            <select id="translateFrom">
+                <option value="en">English</option>
+                <option value="fr">French</option>
+                <option value="hi">Hindi</option>
+                <!-- Add more options for other languages -->
+            </select>
+            <select id="translateTo">
+                <option value="hi">Hindi</option>
+                <option value="de">German</option>
+                <option value="fr">French</option>
+                <option value="en">English</option>
+                <!-- Add more options for other languages -->
+            </select>
+            <button class="btn" type="submit">Send</button>
+        </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,96 @@
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(200, 199, 200));
+    margin: 0px;
+}
+
+.logo{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+h1{
+    margin-top: 12px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.container {
+    width: 65%;
+    border: 0.1px solid rgb(255, 4, 4);
+    border-radius: 0px;
+    margin: auto;
+    height: 70vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 0px;
+    background-image: url('TnNwdvV.png'); 
+}
+
+.message{
+    background-color: rgb(222, 34, 34);
+    width: auto;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.left{
+    float: left;
+    clear:both;
+    background-color: rgb(13, 144, 61);
+    color: aliceblue;
+    
+}
+
+.right{
+    float: right;
+    clear:both;
+    background-color: rgb(13, 144, 61);
+    color: aliceblue;
+}
+
+#send-container{
+    display:block;
+    margin: auto;
+    text-align: center;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#messageInp{
+    width: 62%;
+    border: 2px solid black;
+    border-radius: 1px;
+    height: 34px;
+    font-size: 30px;
+    background-color: aliceblue;
+}
+
+.btn{
+    width: 9%;
+    cursor: pointer;
+    border:solid black;
+    font-size: 1.8em;
+    background-color: rgb(27, 122, 216);
+    color: aliceblue;
+}
+.headings {
+    background-color: rgb(0, 255, 162);
+    height: 100px;/* Set margin to 0 to reset all margins */
+ /* Set padding to 0 to reset all padding */
+    width: 100%; /* Set width to 100% to occupy the full width */
+    padding-top: 40px;
+}
+#translateFrom {
+   font-size: 1.8em;
+   background-color: rgb(89, 148, 11);
+   color: aliceblue;
+}
+#translateTo {
+    font-size: 1.8em;
+    background-color: rgb(89, 148, 11);
+    color: aliceblue;
+}
